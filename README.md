@@ -16,4 +16,4 @@ program help for more details.
 # License
 
 This program is licensed under GNU GPLv3. For more information, refer to
-(LICENSE.txt)[].
+[LICENSE.txt](LICENSE.txt).
