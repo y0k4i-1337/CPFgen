@@ -35,10 +35,35 @@ Usage of ./CPFgen:
     	number of threads (default 20)
   -v	verbose
 ```
+### Available regions
 
+| Code | Regions |
+|-------|---------|
+| 0 | RS |
+| 1 | DF, GO, MS, MT, TO |
+| 2 | AC, AM, AP, PA, RO, RR |
+| 3 | CE, MA, PI |
+| 4 | AL, PB, PE, RN |
+| 5 | BA, SE |
+| 6 | MG |
+| 7 | ES, RJ |
+| 8 | SP |
+| 9 | PR, SC |
+
+![Brazil's map](assets/brazil.png)
+
+## Example
+
+Randomly generate 50000 CPFs (`-n 50000`) from São Paulo (`-r 8`) and write results
+to [`output/cpf-sp.txt`](output/cpf-sp.txt).
+```shell
+./CPFgen -r 8 -n 50000 -o output/cpf-sp.txt
+```
 # Note
 
-The output can easily reach the order of Gigabytes. Ensure you have enough disk space before saving any output.
+  - The output can easily reach the order of Gigabytes. Ensure you have enough
+    disk space before saving any output.
+  - When using `-o`, the **provided file will be overwritten** without confirmation.
 
 ## License
 
