@@ -27,12 +27,12 @@ Usage of ./CPFgen:
     	output format (1: 11122233345,
     	  2: 111.222.333-45, 3: 111222333-45) (default 1)
   -l	list regions and their codes
+  -n int
+    	generate n random CPF numbers
   -o string
     	output results to file
   -r string
     	comma-separated list with region codes (default "0,1,2,3,4,5,6,7,8,9")
-  -t int
-    	number of threads (default 20)
   -v	verbose
 ```
 ### Available regions
